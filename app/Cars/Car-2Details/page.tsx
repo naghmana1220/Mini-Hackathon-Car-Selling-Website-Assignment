@@ -1,11 +1,11 @@
 import React from 'react'
-import Image from 'next/image'
+
 import Link from 'next/link'
 
 
 export default function Car2Details (){
     return (
-        <div className="bg-gray-100 border-solid border-2 border-slate-700 w-full h-80 max-w-full">
+        <div className="bg-gray-100 border-solid border-2 border-slate-700 w-full h-auto">
              <h1 className="text-black pl-96  text-2xl "><u><strong>BMW X5 xDrive30d xLine 2024 Price In Pakistan , Features & <br />Specs</strong></u></h1>
      
              <div className="pl-44  items-center border-solid border-4 border-slate-500   bg-gray-200 justify-center">
@@ -13,7 +13,7 @@ export default function Car2Details (){
                          p-4 m-4 shadow-cyan-400 
                          hover:scale-125
                          duration-150 ease-in-out   width={300}
-                         height={300}    "
+                         height={300} "
                          src="https://www.ccarprice.com/products/BMW_X5_xDrive30d_xLine.jpg" />
              <br />
              <hr />
@@ -44,7 +44,7 @@ export default function Car2Details (){
               <p className="text-black ">The Latest BMW X5 xDrive30d xLine Price in Pakistan updated on daily bases from the
                  local market shops/Showrooms and price list provided by the dealers of BMW in PAK we are trying to
                  <br /> delivering possible 
-                  and Cheap Price/offers or deals of BMW X5 xDrive30d xLine in Pakistan and Full Specs, but we are can’t grantee the information
+                  and Cheap Price/offers or deals of BMW X5 xDrive30d xLine in Pakistan and Full Specs, but we are cant grantee the information
                    are 100% correct(human error is possible), All prices mentioned are in PKR and USD and valid all over the Pakistan including Islamabad,
                  Lahore, Karachi, Multan, Rawalpindi Slight deviations are expected.</p>
                <br />
@@ -52,7 +52,7 @@ export default function Car2Details (){
                <div className="ml-80 pl-20 pt-2 pb-2 ">
                <Link href="/Forms">
               <button className="bg-blue-900 text-white rounded-lg py-3 px-1 shadow-2xl shadow-blue-500 border-solid border-2 border-black">
-                <a>Make Payment</a>
+                Make Payment
                </button>
                </Link> 
                </div>

@@ -1,11 +1,11 @@
 import React from 'react'
-import Image from 'next/image'
+
 import Link from 'next/link'
 
-export default function Cardetails (){
+export default function Car3details (){
     return (
-        <div className="bg-emerald-100 border-solid border-2 border-slate-700 w-full h-80 max-w-full">
-             <h1 className="text-black pl-96  text-2xl "><u><strong>MINI Countryman SE ALL4  2024 Price In Pakistan , Features & <br />Specs</strong></u></h1>
+        <div className="bg-emerald-100 border-solid border-2 border-slate-700 w-full h-auto">
+             <h1 className="text-black pl-96  text-2xl "><u><strong>MINI Countryman SE ALL4  2024 Price In Pakistan , Features and <br />Specs</strong></u></h1>
      
              <div className="pl-44  items-center border-solid border-4 border-slate-500   bg-emerald-100 justify-center">
              <img className="pl-2 h-44 shadow-2xl bg-red rounded-xl ml-80
@@ -43,7 +43,7 @@ export default function Cardetails (){
                <br />
               <p className="text-black ">The Latest MINI Countryman SE ALL4 65th Anniversary Edition 2025 Price in Pakistan updated on daily bases from 
                 the local market shops/Showrooms and price list provided by the dealers of MINI in PAK we are trying to delivering possible best and Cheap
-                 Price/offers or deals of MINI Countryman SE ALL4 65th Anniversary Edition 2025 in Pakistan and Full Specs, but we are can’t grantee the
+                 Price/offers or deals of MINI Countryman SE ALL4 65th Anniversary Edition 2025 in Pakistan and Full Specs, but we are cant grantee the
                   information are 100% correct(human error is possible), All prices mentioned are in PKR and USD and valid all over
                  the Pakistan including Islamabad, Lahore, Karachi, Multan, Rawalpindi Slight deviations are expected.</p>
                <br />
@@ -51,7 +51,7 @@ export default function Cardetails (){
                <div className="ml-80 pl-20 pt-2 pb-2 ">
                <Link href="/Forms">
               <button className="bg-blue-900 text-white rounded-lg py-3 px-1 shadow-2xl shadow-blue-500 border-solid border-2 border-black">
-                <a>Make Payment</a>
+                Make Payment
                </button>
                </Link> 
                </div>

@@ -1,21 +1,16 @@
 import React from 'react'
 import HeroSection from './Components/HeroSection'
 import Feature from './Components/Feature'
-import Navbar from './Components/Navbar'
-import Footer from './Components/Footer'
+import Image from 'next/image'
 
 
 export default function  Home() {
   return (
     <div> 
-        <Navbar /> 
-        <br />
-        <hr /> 
-        <HeroSection />  
-        <br />
+    
+        <HeroSection /> 
         <Feature /> 
-        <Footer /> 
-      
+
     </div>
   )
 }

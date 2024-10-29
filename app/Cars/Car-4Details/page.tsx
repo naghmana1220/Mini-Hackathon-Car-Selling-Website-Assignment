@@ -1,10 +1,10 @@
 import React from 'react'
-import Image from 'next/image'
+
 import Link from 'next/link'
 
-export default function Cardetails (){
+export default function Car3details (){
     return (
-        <div className="bg-gray-100 border-solid border-2 border-slate-700 w-full h-80 max-w-full">
+        <div className="bg-gray-100 border-solid border-2 border-slate-700 w-full h-auto">
              <h1 className="text-black pl-96  text-2xl "><u><strong>Suzuki Baleno 2024 Price In Pakistan , Features & <br />Specs</strong></u></h1>
      
              <div className="pl-44  items-center border-solid border-4 border-slate-500   bg-gray-200 justify-center">
@@ -46,7 +46,7 @@ export default function Cardetails (){
                <br />
               <p className="text-black ">The Latest Suzuki Baleno 2024 Price in Pakistan updated on daily bases from the
                  local market shops/Showrooms and price list provided by the dealers of Suzuki in PAK we are trying to delivering possible
-                  best and Cheap Price/offers or deals of Suzuki Baleno 2024 in Pakistan and Full Specs, but we are can’t grantee the information 
+                  best and Cheap Price/offers or deals of Suzuki Baleno 2024 in Pakistan and Full Specs, but we are cant grantee the information 
                   are 100% correct(human error is possible), All prices mentioned are in PKR and USD and valid all over the Pakistan including Islamabad,
                  Lahore, Karachi, Multan, Rawalpindi Slight deviations are expected.</p>
                <br />
@@ -54,7 +54,7 @@ export default function Cardetails (){
                <div className="ml-80 pl-20 pt-2 pb-2 ">
                <Link href="/Forms">
               <button className="bg-blue-900 text-white rounded-lg py-3 px-1 shadow-2xl shadow-blue-500 border-solid border-2 border-black">
-                <a>Make Payment</a>
+                Make Payment
                </button>
                </Link> 
                </div>
